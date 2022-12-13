@@ -1,6 +1,5 @@
-echo "Cloning Repo...."
-git clone https://github.com/Greymattersbot/Link-Search-Bot-Pro /MdiskWalaBot
-cd /MdiskWalaBot
-pip3 install -r requirements.txt
-echo "Starting Bot...."
-python3 main.py
+#!/bin/bash
+cd /app
+echo "----- Now deployed web booting your repo ------ " 
+gunicorn -b :5000 --reload --access-logfile - --error-logfile - app:app
+
