@@ -16,7 +16,7 @@ class Config(object):
     BOT_USERNAME = os.getenv("BOT_USERNAME", "testV81_bot")
     BOT_OWNER = int(os.getenv("BOT_OWNER", "1898724016"))
 #    OWNER_USERNAME = os.getenv("OWNER_USERNAME", "R_KOHLI")
-    BACKUP_CHANNEL = os.getenv("BACKUP_CHANNEL", "-1001741172138")
+    BACKUP_CHANNEL = os.getenv("BACKUP_CHANNEL", "jkr443")
 #    GROUP_USERNAME = os.getenv("GROUP_USERNAME")
     START_MSG = os.getenv("START_MSG", '''Hᴇʏ Bᴜᴅᴅʏ! 😃
 
