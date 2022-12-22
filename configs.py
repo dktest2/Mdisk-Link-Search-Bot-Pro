@@ -7,16 +7,16 @@ import os
 
 
 class Config(object):
-    API_ID = int(os.getenv("API_ID", "9579926"))
-    API_HASH = os.getenv("API_HASH", "0057feec53650ed8f726c70ceef55ace")
-    BOT_TOKEN = os.getenv("BOT_TOKEN", "5663270878:AAHaIXiBHiZTqJc548WzRazYxHhXHy1qEUc")
+    API_ID = int(os.getenv("API_ID", "14438754"))
+    API_HASH = os.getenv("API_HASH", "baeb7d71bd10d8b5d8a97fce7ad9707d")
+    BOT_TOKEN = os.getenv("BOT_TOKEN", "5821569034:AAF-wmM3ls0L6xjIFf8QfsnaOfkVY-2iiUI")
     BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "MdiskSearchRobot")
-    USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "1BVtsOL4Bu7694CJAzh9yF7ewX1SPHxs9hYJdPduQ2k4QyjZU5BE0idYcrrbS9wLKjCCOKAzd8EindP9whMLovN9S91fWp0EC8UdYFghU8zHqyCxF4An3fcmHR5iPtImEnHCWzZYdtASC-QMEZfAyBkAnv04RLhiKLxzp2ya2w6tT5MpO2BTAy6SyJ-L5DIfKu_N5MO6F9_aYPOEvMlkF2UG8As7KY_78pGlTUtRlXMBuftA_uoxdJYkOjAfHg5sa5yZTS37Op9KB4lVRMs-hxn_4tu4TTUEMSZcGWgLoFHakdyz2YuZDTVnibifN010jBm6zUXKBcf3t3nsg6I-rO8Wu_WWM7I4=")
-    CHANNEL_ID = int(os.getenv("CHANNEL_ID", "-1001669142815"))
-    BOT_USERNAME = os.getenv("BOT_USERNAME", "testV81_bot")
-    BOT_OWNER = int(os.getenv("BOT_OWNER", "1898724016"))
+    USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "1BVtsOK8Bu2EnKOietPXXf-xDI4dHV_yN4Ccc5OPQE4SojHtLiApAlP9pkmsJpADKnKlVphcF-6x_73R8Z8o1V_FXZkWHeu0E5PjBlPie6oqSMPFVi5tSAk247zozlCPJ8q8lZwGsmF3R644PP5T3KXYQgEKzB3d_LhmMJmPHFf0iDSsYlr3VtAG-u_to7Cp6Wt4GsbwTkZEjYmWWt5Du-MaC96qxA9Ne12bGrAsF5rMkL_hIi_EHQnv-sUmfNp_kA-O3uw88PK2R7e7a0tqehlq2UEjdJ5tIF2W4D6547SHISIoThiMgnUo-RZc7gWBobcoldczGK3SSGZzHoMM_SmCJ-yv2JNM=")
+    CHANNEL_ID = int(os.getenv("CHANNEL_ID", "-1001819389376"))
+    BOT_USERNAME = os.getenv("BOT_USERNAME", "Mdisk_Link_Search_V2_bot")
+    BOT_OWNER = int(os.getenv("BOT_OWNER", "5808599296"))
 #    OWNER_USERNAME = os.getenv("OWNER_USERNAME", "R_KOHLI")
-    BACKUP_CHANNEL = os.getenv("BACKUP_CHANNEL", "jkr443")
+    BACKUP_CHANNEL = os.getenv("BACKUP_CHANNEL", "ggggaav")
 #    GROUP_USERNAME = os.getenv("GROUP_USERNAME")
     START_MSG = os.getenv("START_MSG", '''Hᴇʏ Bᴜᴅᴅʏ! 😃
 
@@ -30,15 +30,15 @@ Fᴏʀ Mᴏʀᴇ Iɴꜰᴏ Cʟɪᴄᴋ Oɴ Hᴇʟᴘ ✅''')
 
 ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴛʜᴇʀᴇ ʏᴏᴜʀ ʟɪɴᴋꜱ,
 ꜰᴏʀ ᴍᴏʀᴇ ɪɴꜰᴏ ᴄʟɪᴄᴋ ᴏɴ ʜᴇʟᴘ ✅''')
-    UPDATES_CHANNEL = os.getenv("UPDATES_CHANNEL", "True")
+    UPDATES_CHANNEL = os.getenv("UPDATES_CHANNEL", "-1001672254843")
     DATABASE_URL = os.getenv("DATABASE_URL", "mongodb+srv://cccc:cccc@cluster0.7xrqyz3.mongodb.net/?retryWrites=true&w=majority")
-    LOG_CHANNEL = int(os.getenv("LOG_CHANNEL", "-1001536727311"))
+    LOG_CHANNEL = int(os.getenv("LOG_CHANNEL", "-1001758776529"))
     RESULTS_COUNT = int(os.getenv("RESULTS_COUNT", 5))
     BROADCAST_AS_COPY = os.getenv("BROADCAST_AS_COPY", "True")
-    UPDATES_CHANNEL_USERNAME = os.getenv("UPDATES_CHANNEL_USERNAME", "DK_Area")
+    UPDATES_CHANNEL_USERNAME = os.getenv("UPDATES_CHANNEL_USERNAME", "movie_a1")
     FORCE_SUB = os.getenv("FORCE_SUB", "False")
     AUTO_DELETE_TIME = int(os.getenv("AUTO_DELETE_TIME", 300))
-    MDISK_API = os.getenv("MDISK_API", "SDGrUDqNRFvoT65SJRAh")
+    MDISK_API = os.getenv("MDISK_API", "Vj3WrvQ78OVuOpk32lp4")
     VERIFIED_TIME  = int(os.getenv("VERIFIED_TIME", "365"))
     ABOUT_BOT_TEXT = os.getenv("ABOUT_TEXT", '''I ᴏɴʟʏ ꜱʜᴀʀᴇ ᴛʜᴇ ᴘᴏꜱᴛ ꜰʀᴏᴍ ᴘᴇᴏᴘʟᴇ'ꜱ ᴄʜᴀɴɴᴇʟ! ᴡʜᴏ ᴍᴀᴅᴇ ᴍᴇ ᴀᴅᴍɪɴ ɪɴ ᴛʜᴀᴛ ᴄʜᴀɴɴᴇʟ, i ᴅᴏ ɴᴏᴛ ꜱᴛᴏʀᴇ ᴀɴʏ ꜰɪʟᴇꜱ ᴏʀ ᴛᴇxᴛ ɪɴ  ᴍʏ ᴅᴀᴛᴀʙᴀꜱᴇ.✅
 
